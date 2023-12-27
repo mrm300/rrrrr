@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+      .button {
+        display: flex;
+      }
+      #badge {
+  white-space: nowrap;
+  background-color: #FBB600;
+  padding: 10px;
+  top: -10px;
+  right: -10px;
+   border-top-left-radius:20px;
+   border-bottom-left-radius:20px;
+  position: absolute;
+}
+
+#badge:after {
+  content: "";
+  position: absolute;
+  top:100%;
+  right:0px;
+  border-width: 5px 5px 5px 5px;
+  border-style: solid;
+  border-color: #FBB600 transparent transparent #FBB600;
+}
+      
+      .button a {
+        width: 300px;
+        border-radius: 20px;
+        background-color: #2890F8
+        padding: 10px;
+        text-align: center; 
+        color: #fff;
+        text-decoration: none;
+        opacity: 0.5;
+      }
+
+      .button a:hover {
+       opacity: 1;
+      }
+      .forbad{
+       position: relative;
+      }
+
+      .content {
+      
+        display: flex;
+      }
+
+      .nexttoimg {
+      padding:10px;
+       
+      }
+
+      img {
+        border-radius: 10px;
+       
+      }
+
+      .container {
+        border: 5px dashed black;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding-bottom: 10px;
+      }
+
+      body {
+        margin: 0;
+        font-family: fantasy;
+      }
+
+      h1 {
+        margin-left: 10px;
+        margin-right: auto;
+        font-family: 'Jazz LET', fantasy;
+      }
+
+      .top {
+        background-color: #DDD116;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px;
+      }
+
+      nav a:hover {
+        color: #19DC72;
+      }
+
+      nav a {
+        font-family: comic;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #2890F8;
+        text-decoration: none;
+        color: #333;
+        padding: 0 10px;
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top">
+        <h1>The cozy bookstore</h1>
+        <nav>
+            <a href="#">books</a>
+            <a href="#">new releases</a>
+        </nav>
+    </div>
+    
+  <div class="content">
+    <div class="forbad">
+    <img src="https://www.mswordcoverpages.com/wp-content/uploads/2018/10/Book-cover-page-3-CRC.png" width="300px" height="300px">
+      <div id="badge"> best seller</div></div>
+      <div class="nexttoimg">
+      <h3>about this textbook</h3>
+      <p>In remote northern Canada, in a near-future world, a team is breaking ground on Camp Zero – a project intended to create shelter and a new life for those displaced by climate change. Rose joins a group hired to entertain the men in the camp – but her real mission is to secretly monitor the architect at the helm of the project. </p>
+      <h3>author</h3>
+      <p>Michelle Min Sterling</p>
+      <h3>availability</h3>
+      <p>in stock</p>
+        <div class="button">
+          <a href="#" >buy now 9.99$</a>
+          <a href="#" >add to cart</a>
+        </div>
+      </div>
+  </div>
+  </div>
+</body>
+</html>
+
+
